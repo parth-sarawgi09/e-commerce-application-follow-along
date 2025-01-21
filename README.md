@@ -14,3 +14,6 @@ Database Schema Design: I will explore MongoDB to design data models that are ef
 Backend Development: I will set up a server with Node.js and Express.js to handle requests, API routes, and interact with the database.
 
 Frontend with React: I will use React to build dynamic, user-friendly interfaces, like product lists and shopping carts.
+
+
+--Parth Sarawgi
