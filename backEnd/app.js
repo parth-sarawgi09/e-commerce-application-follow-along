@@ -11,7 +11,7 @@ if(process.env.NODE_ENV !=="PRODUCTION" ){
 app.use((err, req, res, next) => {
     if (err instanceof ErrorHandler) {
         
-        return res.status(err.statusCode || 500) -json({
+        return res.status(err.statusCode || 500).json({
             message: err.message,
             stack: err.stack
         }) ;
