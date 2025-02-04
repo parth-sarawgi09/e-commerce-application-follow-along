@@ -78,3 +78,35 @@ Server Setup: We initialized a Node.js server using the Express framework. The s
 Database Connection: We integrated MongoDB into the project to store and manage data. The server is now connected to MongoDB, enabling efficient data storage and retrieval.
 
 Error Handling: Basic error-handling mechanisms were added to ensure that the server can respond with clear error messages for better debugging and user feedback.
+
+
+Milestone 7: Login Endpoint 📝
+
+Create a login endpoint to authenticate users. Users provide their email/username and password. The backend compares the entered password (hashed with bcrypt) to the stored password. If valid, a JWT token is generated and returned for subsequent requests.
+
+Dependencies: bcryptjs, jsonwebtoken.
+
+Test via POST /api/auth/login with email and password in the request body.
+
+Response: Success with a token, or error for invalid credentials.
+
+
+ Milestone 8: Product Card Component 🌟
+
+In this milestone, we focus on creating a *reusable product card component* for your e-commerce app. The goal is to showcase product details (e.g., name, image, price) in a visually appealing way, making it easy for users to browse products.
+
+#### Steps Completed:
+1. *Card Component*: Designed a reusable card that accepts product details as props.
+2. *Homepage Layout*: Implemented a grid/flexbox layout to display multiple cards neatly.
+3. *Dynamic Rendering*: Used array mapping to dynamically render cards for each product.
+
+#### Next Steps:
+In the next milestone, we’ll add features like filtering and sorting. Keep up the great work! 🚀
+
+### Submission:
+- Push your code to GitHub and ensure the repository is public.
+- Update README with your progress and share the link.
+
+Milestone 9: Product Form Creation
+
+In this milestone, I created a frontend form for inputting product details, including multiple images. This form captures essential product information such as title, description, price, and image files, and will eventually be saved to the database. This milestone helps to understand how to handle user inputs and manage media files in a web application. Additional features like admin access for product uploads were also explored.
