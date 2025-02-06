@@ -1,7 +1,7 @@
 // backend/app.js
 
 const express = require("express");
-// const path = require("path");
+const path = require("path");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
@@ -22,17 +22,17 @@ if(process.env.NODE_ENV !== "PRODUCTION"){
     path: "backend/config/.env"
   })
 }
-// Import Routes
-// const userRoutes = require("./controller/user");
-// const productRoutes = require("./controller/product");
+
 
 const user = require("./controller/user")
-// Route Handling
+
 app.use("/api/v2/user", user);
-// app.use("/api/v2/product", productRoutes);
 app.use("/api/v2/product", product)
 
-// Error Handling Middleware
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/products', express.static(path.join(__dirname, 'products')));
+
+
 app.use(ErrorHandler);
 
 module.exports = app;
