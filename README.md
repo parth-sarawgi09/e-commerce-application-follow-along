@@ -15,7 +15,7 @@ Backend Development: I will set up a server with Node.js and Express.js to handl
 Frontend with React: I will use React to build dynamic, user-friendly interfaces, like product lists and shopping carts.
 
 
-# Milestone 2: 
+## Milestone 2: 
 
 Key Achievements
 1. Project Structure:
@@ -31,7 +31,7 @@ Integrated Tailwind CSS for utility-first, responsive styling to enhance UI deve
 Designed and built a functional Login Page with form validation and styling using Tailwind.
 
 
-# Milestone 3: 
+## Milestone 3: 
 
 In this milestone, we focused on building the foundation for the backend of our e-commerce application. The key objectives were to set up a server, connect it to a database, and establish a solid folder structure to keep our code organized.
 
@@ -44,7 +44,7 @@ Database Connection: We integrated MongoDB into the project to store and manage 
 Error Handling: Basic error-handling mechanisms were added to ensure that the server can respond with clear error messages for better debugging and user feedback.
 
 
-# Milestone 4: 
+## Milestone 4: 
 
 In Milestone 4, we focused on enhancing the backend by creating a User Model, setting up a User Controller, and enabling file uploads using Multer. These features are key to handling user data and media effectively in the e-commerce app.
 
@@ -55,7 +55,7 @@ User Controller: The User Controller was developed to manage user-related reques
 File Uploads with Multer: We integrated Multer to enable file uploads, allowing users to upload images (e.g., profile pictures). Multer manages the file storage and ensures that the files are saved securely in the backend.
 
 
-# Milestone 5: 
+## Milestone 5: 
 
 In Milestone 5, we focused on building the Sign-Up Page for the frontend, where users can register by entering their details. This page includes essential fields such as name, email, and password, providing a clean and user-friendly interface for registration.
 
@@ -67,7 +67,7 @@ UI/UX Enhancements: The design is simple yet effective, allowing users to smooth
 
 
 
-# Milestone 6: 
+## Milestone 6: 
 
 In this milestone, we focused on building the foundation for the backend of our e-commerce application. The key objectives were to set up a server, connect it to a database, and establish a solid folder structure to keep our code organized.
 
@@ -80,7 +80,7 @@ Database Connection: We integrated MongoDB into the project to store and manage 
 Error Handling: Basic error-handling mechanisms were added to ensure that the server can respond with clear error messages for better debugging and user feedback.
 
 
-# Milestone 7: Login Endpoint 📝
+## Milestone 7: Login Endpoint 📝
 
 Create a login endpoint to authenticate users. Users provide their email/username and password. The backend compares the entered password (hashed with bcrypt) to the stored password. If valid, a JWT token is generated and returned for subsequent requests.
 
@@ -91,14 +91,14 @@ Test via POST /api/auth/login with email and password in the request body.
 Response: Success with a token, or error for invalid credentials.
 
 
-# Milestone 8: Product Card Component 🌟
+ ## Milestone 8: Product Card Component 🌟
 
-In this milestone, we focus on creating a *reusable product card component* for your e-commerce app. The goal is to showcase product details (e.g., name, image, price) in a visually appealing way, making it easy for users to browse products.
+In this milestone, we focus on creating a **reusable product card component** for your e-commerce app. The goal is to showcase product details (e.g., name, image, price) in a visually appealing way, making it easy for users to browse products.
 
 #### Steps Completed:
-1. *Card Component*: Designed a reusable card that accepts product details as props.
-2. *Homepage Layout*: Implemented a grid/flexbox layout to display multiple cards neatly.
-3. *Dynamic Rendering*: Used array mapping to dynamically render cards for each product.
+1. **Card Component**: Designed a reusable card that accepts product details as props.
+2. **Homepage Layout**: Implemented a grid/flexbox layout to display multiple cards neatly.
+3. **Dynamic Rendering**: Used array mapping to dynamically render cards for each product.
 
 #### Next Steps:
 In the next milestone, we’ll add features like filtering and sorting. Keep up the great work! 🚀
@@ -109,8 +109,7 @@ In the next milestone, we’ll add features like filtering and sorting. Keep up 
 
 # Milestone 9: Product Form Creation
 
-In this milestone, I created a frontend form for inputting product details, including multiple images. This form captures essential product information such as title, description, price, and image files, and will eventually be saved to the database. This milestone helps to understand how to handle user inputs and manage media files in a web application. Additional features like admin access for product uploads were also explored.
-
+In this milestone, I created a frontend form for inputting product details, including multiple images. This form captures essential product information such as title, description, price, and image files, and will eventually be saved to the database. This milestone helps to understand how to handle user inputs and manage media files in a web application. Additional features like admin access for product uploads were also explored.
 
 # Milestone 10: Product Schema & Endpoint Creation
 
@@ -120,6 +119,14 @@ I also built a POST endpoint that receives product details, validates the input 
 
 Additionally, I explored optional features like creating admin roles for restricted access to product uploads. This milestone strengthens the backend process of handling product data, making it ready for display on the frontend in future milestones.
 
-# Welcome to Milestone 11! 🌟
+## Milestone 11
+
+Welcome to Milestone 11! 🌟
 
 In this milestone, we learned how to display products dynamically on the home page using data stored in MongoDB. We built an endpoint to fetch all the products and a frontend function to display them using a product card component.
+
+# Milestone 12 - My Products Page
+
+Welcome to Milestone 12! 🌟
+
+In this milestone, we will build a "My Products" page that will display all the products added by a specific user. We will write an endpoint to filter products based on the user's email and send that data to the frontend. The data will be fetched dynamically and displayed using the Product Card component created earlier.
