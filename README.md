@@ -130,3 +130,9 @@ In this milestone, we learned how to display products dynamically on the home pa
 Welcome to Milestone 12! 🌟
 
 In this milestone, we will build a "My Products" page that will display all the products added by a specific user. We will write an endpoint to filter products based on the user's email and send that data to the frontend. The data will be fetched dynamically and displayed using the Product Card component created earlier.
+
+# Milestone 13 - Updating the product
+
+This Express.js route updates a product in a MongoDB database, handling file uploads using multer. It validates input data, updates product details (name, description, category, tags, price, stock, email), and modifies images if new ones are uploaded. Errors are handled with appropriate status codes, ensuring robust error management and smooth database updates.
+
+
