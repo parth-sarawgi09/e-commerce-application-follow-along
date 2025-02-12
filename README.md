@@ -138,3 +138,8 @@ This Express.js route updates a product in a MongoDB database, handling file upl
 # Milestone 14 - Delete the product
 
 This e-commerce application is built with Node.js, Express, MongoDB, and React, providing full-stack functionality for product management. It includes RESTful APIs for adding, updating, and deleting products. The /delete-product/:id endpoint allows secure product removal. Error handling ensures reliability. Ideal for scalable and dynamic online stores. 
+
+
+# Milestone 16
+
+In this milestone, we created a navigation bar on the homepage where we can see "My Products," "Add Product," and "Cart."
