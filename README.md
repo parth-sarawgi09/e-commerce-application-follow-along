@@ -182,3 +182,8 @@ Welcome to *Milestone 19* of our project! 🎉 In this milestone, we focused on 
 # Milestone 20 - Profile Page & User Data Display
 
 Welcome to *Milestone 20* of our project! 🌟 In this milestone, we focused on creating a user profile page where we can display all the user data fetched from the backend. Additionally, we developed an API endpoint to send user data, which includes details like name, profile photo, email, and addresses.
+
+
+# Milestone 21 : Adding Address colum to the profile page
+
+In this milestone we create a "createAddress.jsx" file in pages folder where we write the code for add address button to make it functional and will send us to the add address page.
