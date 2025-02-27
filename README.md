@@ -187,3 +187,8 @@ Welcome to *Milestone 20* of our project! 🌟 In this milestone, we focused on 
 # Milestone 21 : Adding Address colum to the profile page
 
 In this milestone we create a "createAddress.jsx" file in pages folder where we write the code for add address button to make it functional and will send us to the add address page.
+
+
+# Milestone 22 : Connecting our Add-Address page to backend
+
+In this milestone we connect our add-address page to the backend so that whenever we update our address section it will show in the backend.
