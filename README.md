@@ -189,6 +189,6 @@ Welcome to *Milestone 20* of our project! 🌟 In this milestone, we focused on 
 In this milestone we create a "createAddress.jsx" file in pages folder where we write the code for add address button to make it functional and will send us to the add address page.
 
 
-# Milestone 22 : Connecting our Add-Address page to backend
+# Milestone 22 - Save Address in User Profile
 
-In this milestone we connect our add-address page to the backend so that whenever we update our address section it will show in the backend.
+Welcome to Milestone 22 of our project! 🎉 In this milestone, we focused on creating a backend endpoint that allows users to save their address directly into their user profile. We developed the necessary endpoint to receive the address from the frontend and update the user’s profile in the database by adding the address to the user’s address array.
