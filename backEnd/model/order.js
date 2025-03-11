@@ -28,7 +28,7 @@ const mongoose = require('mongoose');
                      min: [0, 'Price cannot be negative'],
                  },
                  image: {
-                     type: String,
+                     type: Array,
                      required: true,
                  },
              },
