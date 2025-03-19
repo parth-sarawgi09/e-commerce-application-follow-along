@@ -225,3 +225,7 @@ In this milestone, we focused on creating the frontend page that displays all us
 Welcome to Milestone 28!
 
  In this milestone, we focused on adding a cancel order feature to the my-orders page and creating a backend endpoint for handling order cancellations.
+
+ # Milestone 29: Paypal integration
+
+ IN this milestone, we focused on adding a cash on delivery and online payment opiton to the project.
