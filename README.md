@@ -229,3 +229,9 @@ Welcome to Milestone 28!
  # Milestone 29: Paypal integration
 
  IN this milestone, we focused on adding a cash on delivery and online payment opiton to the project.
+
+ # Milestone 30: PayPal Integration
+
+## Overview
+
+In this milestone, we learned how to integrate an *online payment gateway* into our React application using the *PayPal API*. This milestone is a continuation of Milestone 29, where we set up a PayPal account and obtained the user ID in the sandbox environment.
