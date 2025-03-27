@@ -239,3 +239,16 @@ In this milestone, we learned how to integrate an *online payment gateway* into 
 # Milestone 31: Implementing Global State Management with Redux
 
 Welcome to Milestone 31! 🎯 In this milestone, we focus on implementing global state management using Redux in a React application. By the end of this milestone, you will learn how to use Redux for managing global states like storing a user's email across various components.
+
+### Milestone 32📝
+1. In Login page we used Dispatch method to store the mail inside global state
+2. In all the remaining pages acc the mail were stored in global state using useSelector
+
+<hr>
+
+### Milestone 33📝
+
+1. Downloaded jsonwebtoken package using NPM
+2. Used sign method to create an JWT token with mail and ID
+3. Gave maxAge to set expire time
+4. Added the cookie inside the response that helps you to store the cookie inside browser.
