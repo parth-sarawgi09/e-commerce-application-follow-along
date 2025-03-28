@@ -9,7 +9,7 @@ const path=require('path')
 const orders = require('./controller/order');
 
 const corsOptions = {
-    origin: 'http://localhost:5177', // Allow only your frontend origin
+    origin: 'http://localhost:5173', // Allow only your frontend origin
     credentials: true, // Allow cookies and credentials
   };
 
